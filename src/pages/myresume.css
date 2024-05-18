@@ -1,0 +1,23 @@
+.resume{
+    position: relative;
+    top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.resume-img{
+    position: relative;
+    margin: 50px;
+    width: 800px;
+}
+.resume-btn{
+    height: 30px;
+    width: 200px;
+    background-color: #ff5e62;
+    border:3px solid  #ff5e62;
+    border-radius: 3px;
+    /* padding: 5px; */
+    color: white;
+    cursor: pointer;
+}

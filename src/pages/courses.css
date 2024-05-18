@@ -1,0 +1,187 @@
+.container{
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+}
+
+.Heading{
+    position:relative;
+    height: 50px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    margin: 70px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e1e0e0;
+    padding: 10px;
+    border-radius:5px ;
+}
+.add-file{
+ height: 30px;
+ width: 120px;
+ background-color: #ff5e62;
+ border:3px solid  #ff5e62;
+ border-radius: 3px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ color: white;
+ cursor: pointer;
+ 
+}
+.dropdown-menu{
+    z-index: 1000;
+    /* height: 100px; */
+    position: relative;
+    color: black;
+    /* top: 100px; */
+    right: 100px;
+    border-radius: 10px;
+    background-color:rgb(232, 230, 230);
+    transition: all 0.5s ease-in-out;
+}
+
+.dropdown-menu li{
+    width: 150px;
+    position: relative;
+    text-align: left;
+    list-style: none;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 10px;
+    margin-right: 40px;
+}
+.dropdown-menu li img{
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+}
+.dropdown-menu li:hover{
+ border-bottom: 1px solid black;
+}
+
+.module-list{
+position: relative;
+/* min-height: 100px; */
+width: 900px;
+/* background-color: #ffffff; */
+padding: 10px;
+}
+
+.module-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:2px solid #111010;
+}
+.module-item img{
+    background-color: white;
+    border-radius: 3px;
+    padding: 5px;
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.save{
+    height: 30px;
+    width: 100px;
+    background-color: #ff5e62;
+    border:3px solid  #ff5e62;
+    border-radius: 3px;
+    /* padding: 5px; */
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+.cancel{
+    height: 30px;
+    width: 100px;
+    background-color: #ff5e62;
+    border:3px solid  #ff5e62;
+    border-radius: 3px;
+    /* padding: 5px; */
+    color: white;
+    cursor: pointer;
+}
+.edit-input{
+    padding: 5px;
+    height: 20px;
+    width: 300px;
+}
+
+/* .add-file{
+   
+} */
+.add-plus{
+    height: 15px;
+    width: 15px;
+    /* margin-right: 6px; */
+}
+
+.add-down{
+    position: relative;
+    transition: all 1s ease-in-out;
+    height: 15px;
+    width: 15px;
+}
+.popup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.popup button{
+  height: 40px;
+  width: 120px;
+  background-color: #ff5e62;
+   border-radius: 5px;
+   border: 3px solid #ff5e62;
+   color: white;
+   font-weight: 200;
+   cursor: pointer;
+}
+.cross{
+    position: relative;
+    left: 210px;
+    cursor:pointer;
+    height: 40px;
+    width: 40px ;
+}
+.download{
+    height: 30px;
+    width: 100px;
+    background-color: #ff5e62;
+    border:3px solid  #ff5e62;
+    border-radius: 3px;
+    /* padding: 5px; */
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.module-popup{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* top: 40px; */
+  min-height: 800px;
+  width: 1000px;
+  background-color: rgb(255, 255, 255);
+  z-index: 800;
+}
+
+.module_popup_close{
+    z-index: 800;
+    cursor: pointer;
+    position: absolute;
+    left: 450px;
+}

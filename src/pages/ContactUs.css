@@ -1,0 +1,52 @@
+.contact{
+    position: relative;
+    height: 695px;
+    top: 80px;
+    /* right: 10vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../public/telephone.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contactForm{
+    position: relative;
+    
+    /* right: 20vw; */
+}
+.container{
+    position: relative;
+    z-index: 50;
+}
+input{
+    width: 400px;
+    margin: 20px;
+    padding: 10px;
+}
+textarea{
+    width: 500px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.submit-btn {
+    margin: 30px;
+    position: relative;
+    left: 100px;
+    height: 30px;
+    width: 200px;
+    background-color: #ff5e62;
+    border:3px solid  #ff5e62;
+    border-radius: 3px;
+    /* padding: 5px; */
+    color: white;
+    cursor: pointer;
+}
+.contact-img{
+    position: relative;
+    top: -40px;
+    height: 320px;
+    width: 1540px;
+}
